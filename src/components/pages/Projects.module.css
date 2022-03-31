@@ -1,0 +1,15 @@
+.project_container {
+  overflow-x: hidden;
+
+  padding: 2em;
+}
+
+.title_container {
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  margin-bottom: 2em;
+}
+
