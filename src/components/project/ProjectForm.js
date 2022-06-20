@@ -22,7 +22,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     })
       .then((resp) => resp.json())
       .then((data) => {
-        setCategories = data
+        setCategories(data)
       })
       .catch(err => console.log(err))
   }, [])
